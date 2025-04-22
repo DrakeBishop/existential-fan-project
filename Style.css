@@ -1,0 +1,72 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background and general layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+}
+
+/* Zones */
+main {
+    padding: 30px;
+}
+
+section {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #444;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+#fan-img {
+    width: 100px;
+    animation: slowspin 8s linear infinite;
+    margin-top: 10px;
+}
+
+@keyframes slowspin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+#rain-zone {
+    margin-top: 40px;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+#clock-zone {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: monospace;
+}
+
+#clock {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
